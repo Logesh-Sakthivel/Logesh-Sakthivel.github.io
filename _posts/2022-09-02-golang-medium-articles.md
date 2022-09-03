@@ -45,3 +45,7 @@ Here are the list of my Golang Medium articles.
 - [Labeled Continue](https://towardsdev.com/labeled-continue-golang-55127e922463)
 
 - [Sorter](https://towardsdev.com/sorter-golang-7b8b5c50076a)
+
+- [sync.Mutex](https://towardsdev.com/sync-mutex-golang-54b6d0516491)
+
+- [Custom Package in Golang with/without Go Module (go mod)](https://towardsdev.com/custom-package-in-golang-with-without-go-module-go-mod-c1fe67560680)

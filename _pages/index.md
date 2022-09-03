@@ -13,7 +13,7 @@ Experience
 
 I have almost 2 years of experience in IoT Wireless Solutions automation using Python, where I have automated CLI, GUI and APIs. Also, I have developed an Application that simulates the packets to communicate with the real device or the other simulator itself.
 
-You can see my full resume by clicking [here]().
+You can see my full resume [here](/cv/).
 
 Hobby Projects
 ======
@@ -34,7 +34,7 @@ Hobby Projects
 My Articles
 ======
 
-Checkout my Medium articles [here](), where I talk about Golang, Protobuf, gRPC, GraphQL, etc..
+Checkout my Medium articles [here](/posts/), where I talk about Golang, Protobuf, gRPC, GraphQL, etc..
 
 [//]: # (Provide the link to redirect to the Articles page of this site not the Medium profile link.)
 [//]: # (Since I try to populate my articles in this site based on the categories so it will be easier)
