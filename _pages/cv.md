@@ -11,8 +11,8 @@ redirect_from:
 Work experience
 ======
 
-* #### Software Engineer <span style="color:#b5b5b5;font-size: 10px">June 2021 - Present</span>
-  * ###### _Jeroboam - Ultra Reliable Wireless Backhaul (formerly Fluidmesh)_ <span style="color:#b5b5b5;font-size: 10px">Mar 2022 - Present</span>
+* #### Software Engineer <span style="color:#b5b5b5;font-size: 12px">June 2021 - Present</span>
+  * ###### _Jeroboam - Ultra Reliable Wireless Backhaul (formerly Fluidmesh)_ <span style="color:#b5b5b5;font-size: 11px">Mar 2022 - Present</span>
 
     Cisco Ultra-Reliable Wireless Backhaul is a wireless technology that enables you to connect moving assets or extend your network where running fiber isn't feasible or affordable. It delivers up to a 7.8-Gbps data rate, 99.995% availability, less than 10-ms latency, and zero packet loss with seamless handoffs.
     
@@ -22,7 +22,7 @@ Work experience
 
     Automation includes API and CLI using pyATS framework in Python.
 
-  * ###### _Cisco SD-Access Fabric Wireless_  <span style="color:#b5b5b5;font-size: 10px">Nov 2021 - Feb 2022</span>
+  * ###### _Cisco SD-Access Fabric Wireless_  <span style="color:#b5b5b5;font-size: 11px">Nov 2021 - Feb 2022</span>
 
     SD-Access is Cisco’s next-generation enterprise networking access solution, designed to offer integrated security, segmentation, and
 elastic service rollouts via a fabric-based infrastructure.
@@ -33,7 +33,7 @@ elastic service rollouts via a fabric-based infrastructure.
 
     Automation includes API, GUI and CLI using pyATS framework in Python.
   
-  * ###### _SCADA t104_ <span style="color:#b5b5b5;font-size: 10px">Oct 2021</span>
+  * ###### _SCADA t104_ <span style="color:#b5b5b5;font-size: 11px">Oct 2021</span>
 
     SCADA t104 (IEC 60870-5-104) protocol operates over IP interfaces.
 
@@ -43,7 +43,7 @@ elastic service rollouts via a fabric-based infrastructure.
 
     Developed the Python libraries from the scratch for creating and parsing the Packets.
 
-  * ###### _Fluidmesh_ (now part of Cisco) <span style="color:#b5b5b5;font-size: 10px">Jun 2021 - Sep 2021</span>
+  * ###### _Fluidmesh_ (now part of Cisco) <span style="color:#b5b5b5;font-size: 11px">Jun 2021 - Sep 2021</span>
 
     Automated the Solution requirement scenarios of the Fluidmesh product.
 
@@ -51,7 +51,7 @@ elastic service rollouts via a fabric-based infrastructure.
 
     Worked on Dashboard API automation and device CLI automation,
 
-* #### Project Intern <span style="color:#b5b5b5;font-size: 10px">Feb 2021 - May 2021</span>
+* #### Project Intern <span style="color:#b5b5b5;font-size: 12px">Feb 2021 - May 2021</span>
   * ###### _Astral Cloud QA_
 
     I am with the team 6 members responsible for testing the basic GUI functionality.
@@ -62,9 +62,9 @@ elastic service rollouts via a fabric-based infrastructure.
 Education History
 ======
 
-* #### Government College of Technology, Coimbatore <span style="color:#b5b5b5;font-size: 10px">Aug 2017 - Mar 2021</span>
+* #### Government College of Technology, Coimbatore <span style="color:#b5b5b5;font-size: 12px">Aug 2017 - Mar 2021</span>
 
-  B.E. (EEE) <span style="color:#b5b5b5;font-size: 10px">CGPA 8 out of 10</span>
+  B.E. (EEE) <span style="color:#b5b5b5;font-size: 11px">CGPA 8 out of 10</span>
 
     
 
