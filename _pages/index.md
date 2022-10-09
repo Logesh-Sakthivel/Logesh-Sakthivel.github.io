@@ -13,7 +13,7 @@ Experience
 
 I have almost 2 years of experience in IoT Wireless Solutions automation using Python, where I have automated CLI, GUI and APIs. Also, I have developed an Application that simulates the packets to communicate with the real device or the other simulator itself.
 
-You can see my full resume [here](/cv/).
+You can find my resume [here](/cv/).
 
 Hobby Projects
 ======
