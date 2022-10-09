@@ -18,15 +18,15 @@ You can see my full resume [here](/cv/).
 Hobby Projects
 ======
 
-- [NetFie]() - a Monitoring Dashboard
+- [NetFie](/hobby-projects#netfie) - a Monitoring Dashboard
 
-- [Finlyser]() - an Expense tracker android APP
+- [Finlyser](/hobby-projects#finlyser) - an Expense tracker android APP
 
-- [To-Do]() CLI APP
+- [To-Do](/hobby-projects#to-do) - CLI todo APP
 
-- [empty-remover]() - a CLI app to delete the empty files in the path you specified
+- [empty-remover](/hobby-projects#empty-remover ) - a CLI app to delete the empty files in the path you specified
 
-- [deldirrecur]()  - a CLI app to delete the particular Directory from the given path recursively
+- [deldirrecur](/hobby-projects#deldirrecur)  - a CLI app to delete the particular Directory from the given path recursively
 
 [//]: # (Provide the link to redirect to the projects page of this site not the Github link.)
 [//]: # (Main project page and then individual page to explain the projects briefly,, usage...)

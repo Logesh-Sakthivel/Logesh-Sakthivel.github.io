@@ -7,6 +7,6 @@ tags:
 ---
 
 
-Here is the link to my Docker Medium article.
+Article related Docker.
 
 [Docker commands you should know](https://faun.pub/docker-commands-you-should-know-28fdd6824047)

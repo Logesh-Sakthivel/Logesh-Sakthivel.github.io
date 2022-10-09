@@ -9,7 +9,7 @@ tags:
 ---
 
 
-Here are the list of my Protobuf Medium articles.
+Protobuf articles.
 
 - [Protocol Buffers — Basics](https://faun.pub/protocol-buffers-basics-d5668fc194b3)
 

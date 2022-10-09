@@ -105,7 +105,10 @@ Certifications
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="0d9d1fe9-b81f-422e-bcb7-a7cde8a14739" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
 <div class="badgr-badge" style="font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;"><a href="https://api.badgr.io/public/assertions/0vHyxfNvSN6rCaYQh9yZZg?identity__email=logsak.12.34%40gmail.com"><img width="120px" height="120px" src="https://api.badgr.io/public/assertions/0vHyxfNvSN6rCaYQh9yZZg/image"></a><p class="badgr-badge-name" style="hyphens: auto; overflow-wrap: break-word; word-wrap: break-word; margin: 0; font-size: 16px; font-weight: 600; font-style: normal; font-stretch: normal; line-height: 1.25; letter-spacing: normal; text-align: left; color: #05012c;">Postman Student Expert</p><p class="badgr-badge-date" style="margin: 0; font-size: 12px; font-style: normal; font-stretch: normal; line-height: 1.67; letter-spacing: normal; text-align: left; color: #555555;"><strong style="font-size: 12px; font-weight: bold; font-style: normal; font-stretch: normal; line-height: 1.67; letter-spacing: normal; text-align: left; color: #000;">Awarded: </strong>7 May 2021</p></div><script async="async" src="https://badgr.com/assets/widgets.bundle.js"></script>
-
+<br>
+<a href="https://coursera.org/share/6f742dcbbedf8f165d0ecfdde8ef0a3d">
+<img src="https://user-images.githubusercontent.com/69865283/194739355-474e5a54-706b-4d1e-a156-78cb55f43945.png" alt="Go" width="300" height="200">
+</a>
 
 {% endcapture %}
 

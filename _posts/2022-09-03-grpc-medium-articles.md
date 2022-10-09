@@ -9,7 +9,7 @@ tags:
 ---
 
 
-Here are the list of my gRPC Medium articles.
+Articles on gRPC.
 
 - [gRPC (general-purpose RPC)— Basics](https://faun.pub/grpc-general-purpose-rpc-basics-3a5b8c637fa7)
 
