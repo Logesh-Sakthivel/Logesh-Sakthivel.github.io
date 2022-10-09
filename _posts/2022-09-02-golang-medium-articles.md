@@ -8,7 +8,7 @@ tags:
 ---
 
 
-Here are the list of my Golang Medium articles.
+Here are the list of my Golang articles on Medium.
 
 - [Using open source packages — Golang](https://towardsdev.com/using-open-source-packages-golang-4e312dea86a0)
 
@@ -49,3 +49,7 @@ Here are the list of my Golang Medium articles.
 - [sync.Mutex](https://towardsdev.com/sync-mutex-golang-54b6d0516491)
 
 - [Custom Package in Golang with/without Go Module (go mod)](https://towardsdev.com/custom-package-in-golang-with-without-go-module-go-mod-c1fe67560680)
+
+- [Golang Functions like other types](https://medium.com/@LogeshSakthivel/golang-functions-like-other-types-5f7e1ad0397e)
+
+- [More on Go routines](https://towardsdev.com/more-on-go-routines-a875fc0cc9a1)
