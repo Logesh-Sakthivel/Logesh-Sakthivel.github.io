@@ -111,3 +111,8 @@ author_profile: true
 
 - [Event Stream to Kafka in Python — Part II](https://towardsdev.com/event-stream-to-kafka-in-python-part-ii-dd06baf4b0de)
 
+## Flet
+
+- [Flutter apps in Python — Flet](https://towardsdev.com/flutter-apps-in-python-flet-3fccdaabc34f)
+
+- [Simple Webapp with Flet and Telegram bot](https://towardsdev.com/simple-webapp-with-flet-and-telegram-bot-219dba692363)
