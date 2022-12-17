@@ -28,6 +28,8 @@ Hobby Projects
 
 - [deldirrecur](/hobby-projects#deldirrecur)  - a CLI app to delete the particular Directory from the given path recursively
 
+- [Flet Webapp](/hobby-projects#leave_me_a_message) - a webapp used to leave me a message by the user
+
 [//]: # (Provide the link to redirect to the projects page of this site not the Github link.)
 [//]: # (Main project page and then individual page to explain the projects briefly,, usage...)
 
