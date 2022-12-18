@@ -113,6 +113,8 @@ This page contains some links to my Github repo/wiki where I have some notes on 
 
 [Encryption and Hashing](https://docs.google.com/presentation/d/15jPAxz2azo9jsMd01ENDy6haH2Dlfko-hcEmqrMTAF0/edit?usp=sharing)
 
+[SSL/TLS Handshake](https://github.com/LogeshVel/TLS/wiki)
+
 [Open SSL notes](https://github.com/LogeshVel/OpenSSL/wiki)
 
 ## WebSocket
