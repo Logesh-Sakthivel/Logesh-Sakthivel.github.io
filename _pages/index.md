@@ -20,7 +20,7 @@ Hobby Projects
 
 - [NetFie](/hobby-projects#netfie) - a Monitoring Dashboard
 
-- [Finlyser](/hobby-projects#finlyser) - an Expense tracker android APP
+- [FinLyser](/hobby-projects#finlyser) - an Finance tracker android APP
 
 - [To-Do](/hobby-projects#to-do) - CLI todo APP
 
