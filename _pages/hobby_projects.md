@@ -14,21 +14,21 @@ Here is the link to [NetFie Web APP](https://netfie-9d483.web.app/#/).
 
 ## FinLyser
 
-FinLyser is a mobile APP which is used to Track your expenses, lends, borrows.
+FinLyser is a mobile APP which is used to Track your expenses, lends, borrows, investments.
 
-You could add your lends, borrows and expenses in this App. Also, add the budget plans.
+You could add your lends, borrows, expenses and investments in this App. Also, add the budget plans.
 
-The Current version of the App only supports the Expenses visualization. User can visualize the Expenses over a period of time.
+The Current version of the App only supports the Expenses and Investments visualization. User can visualize the Expenses and Investments over a period of time.
 {: .notice--primary}
 
-Visualize your Total Expenses, Year wise expenses, Month wise expenses on the particular year and Day wise expenses on the particular month.
+Visualize your Total Expenses and Investments, Year wise expenses and investments, Month wise expenses and investments on the particular year and Day wise expenses and investments on the particular month.
 
 The Main moto for me to develop this APP was user data privacy. The Expense that you add in this app to track is completed resides on your Mobile. (This APP doesn’t requires any Internet connectivity since none of the data leaves your Phone.)
 
 The User needs to create an account to proceed further but the coolest thing about this app is that User doesn’t require to enter their Phone number or email or anything, just Username and Password is good to go. By doing so this app doesn’t gets any of the User info.
 
 The APP isn’t published on the Playstore. I have just build this APP for my personal use so i haven’t taken steps to publish it.
-But if you want to explore FinLyser, you can find the APK file [here](https://drive.google.com/file/d/19lCePy9hrw0ryuC2INJOa71plm6_a5tH/view?usp=share_link), i have uploaded in my drive.
+But if you want to explore FinLyser, you can find the APK file [here](https://drive.google.com/file/d/13gtFrFvPbSoaA57_VA24C__0eHz7oS4z/view?usp=sharing), i have uploaded in my drive.
 
 ## To-Do
 
