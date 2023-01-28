@@ -101,6 +101,10 @@ This page contains some links to my Github repo/wiki where I have some notes on 
 
 [Linux - Bash cmds](https://docs.google.com/presentation/d/1icozMgWR2fhln8ZImrEdA_EFKxrmlBk_PC0SlH1x-mU/edit?usp=sharing)
 
+## Django
+
+[Django Github wiki page](https://github.com/LogeshVel/Django/wiki)
+
 ## GraphQL
 
 [GraphQL - slides](https://docs.google.com/presentation/d/11RRnUK6B4hGtTtbymZ6VYtzDQxo5vk07CdI5-OmhZKk/edit?usp=sharing)

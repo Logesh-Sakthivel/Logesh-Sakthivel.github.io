@@ -12,24 +12,34 @@ Work experience
 ======
 
 * #### Software Engineer <span style="color:#b5b5b5;font-size: 12px">June 2021 - Present</span>
-  * ###### _Jeroboam - Ultra Reliable Wireless Backhaul (formerly Fluidmesh)_ <span style="color:#b5b5b5;font-size: 11px">Mar 2022 - Present</span>
+  * ###### _Jeroboam - Ultra Reliable Wireless Backhaul (formerly Fluidmesh)_ <span style="color:#b5b5b5;font-size: 11px">Apr 2022 - Present</span>
 
     Cisco Ultra-Reliable Wireless Backhaul is a wireless technology that enables you to connect moving assets or extend your network where running fiber isn't feasible or affordable. It delivers up to a 7.8-Gbps data rate, 99.995% availability, less than 10-ms latency, and zero packet loss with seamless handoffs.
     
-    I am with the team of 5 members responsible for the Solution testing of this product.
+    I am with the team of 3 members responsible for the Solution testing of this product.
 
-    Automating the end to end Solution requirement of the product by configuring the device, passing the traffic streams, and performing the test scenarios.
+    Automated the end to end Solution requirement of the product by configuring the device, passing the traffic streams, and performing the test scenarios.
+
+    Handled different Layer Suites(L2, L3) and Verticals based on the customer deployment scenarios in the single script file.
+
+    Pushed the testsuite end results to the DB and notified the WebEx teams with testsuite summary table with all the traffic statistics.
 
     Automation includes API and CLI using pyATS framework in Python.
+
+  * ###### _Profinet traffic simulator_  <span style="color:#b5b5b5;font-size: 11px">Mar 2022</span>
+
+    Developed a CLI app to simulate the Profinet traffic in Golang.
+
+    On the receiver end, added the feature to calculate the Packet Loss and Packet Loss duration. 
 
   * ###### _Cisco SD-Access Fabric Wireless_  <span style="color:#b5b5b5;font-size: 11px">Nov 2021 - Feb 2022</span>
 
     SD-Access is Cisco’s next-generation enterprise networking access solution, designed to offer integrated security, segmentation, and
 elastic service rollouts via a fabric-based infrastructure.
 
-    With the team of 3 members responsible for testing the campus Wireless connectivity .
+    With the team of 3 members responsible for testing the campus Wireless connectivity.
 
-    Automating the Device onboarding scenario in the Cisco DNAC, image activation, providing Wireless connectivity and verifying the Segmentation.
+    Automated the Device onboarding scenario in the Cisco DNAC, image activation, providing Wireless connectivity and verifying the Segmentation (SGT).
 
     Automation includes API, GUI and CLI using pyATS framework in Python.
   
@@ -39,9 +49,9 @@ elastic service rollouts via a fabric-based infrastructure.
 
     Simulated the t104 communication between the SCADA Master and SCADA Slave.
 
-    Used Scapy to create the Packet from the scratch in Python.
+    Used Scapy to create the Packet from the ground up in Python.
 
-    Developed the Python libraries from the scratch for creating and parsing the Packets.
+    Developed the Python libraries from scratch for creating and parsing the Packets.
 
   * ###### _Fluidmesh_ (now part of Cisco) <span style="color:#b5b5b5;font-size: 11px">Jun 2021 - Sep 2021</span>
 
@@ -49,12 +59,12 @@ elastic service rollouts via a fabric-based infrastructure.
 
     Automation includes configuring the Fluidmesh devices to form the mesh, passing the traffic and verifying the test scenarios in Python. 
 
-    Worked on Dashboard API automation and device CLI automation,
+    Worked on Dashboard API automation and device CLI automation.
 
 * #### Project Intern <span style="color:#b5b5b5;font-size: 12px">Feb 2021 - May 2021</span>
   * ###### _Astral Cloud QA_
 
-    I am with the team 6 members responsible for testing the basic GUI functionality.
+    I am with the team of 6 members responsible for testing the basic GUI functionality.
 
     Manually tested the network device registration functionality in the Astral Mobile APP and Web APP.
 
@@ -75,7 +85,7 @@ Main Skills
 
 * Golang
 
-* API, CLI, GUI testing (Automation and Manual)
+* REST API, CLI, GUI testing (Automation and Manual)
 
 Tools
 ======
@@ -94,7 +104,8 @@ Protocols
 * ARP
 * DNS
 * WPA/WPA2-PSK
-* SGT
+* Trustsec
+* TCP/UDP
 
 
 Certifications

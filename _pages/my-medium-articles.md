@@ -111,6 +111,12 @@ author_profile: true
 
 - [Event Stream to Kafka in Python — Part II](https://towardsdev.com/event-stream-to-kafka-in-python-part-ii-dd06baf4b0de)
 
+## OAuth
+
+- [OAuth2.0 simplified](https://towardsdev.com/oauth2-0-simplified-802ac0d7bfb2)
+
+- [OpenID Connect simplified](https://towardsdev.com/openid-connect-simplified-419cfba6898c)
+
 ## Flet
 
 - [Flutter apps in Python — Flet](https://towardsdev.com/flutter-apps-in-python-flet-3fccdaabc34f)
