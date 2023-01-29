@@ -28,7 +28,7 @@ The Main moto for me to develop this APP was user data privacy. The Expense that
 The User needs to create an account to proceed further but the coolest thing about this app is that User doesn’t require to enter their Phone number or email or anything, just Username and Password is good to go. By doing so this app doesn’t gets any of the User info.
 
 The APP isn’t published on the Playstore. I have just build this APP for my personal use so i haven’t taken steps to publish it.
-But if you want to explore FinLyser, you can find the APK file [here](https://drive.google.com/file/d/1wlOOgugqTzgdIN7khjDvgwk5NAvKb5TQ/view?usp=sharing), i have uploaded in my drive.
+But if you want to explore FinLyser, you can find the APK file [here](https://drive.google.com/file/d/1p-R9PvZYzQcnrR3RVymN7FAvSl0FNnqS/view?usp=sharing), i have uploaded in my drive.
 
 ## To-Do
 
