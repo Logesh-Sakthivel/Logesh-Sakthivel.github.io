@@ -67,17 +67,19 @@ This page contains some links to my Github repo/wiki/slides, where I have some n
 
 [MPLS - slides](https://docs.google.com/presentation/d/1K6LvrskOl10gYcOUcw2wX_hUAiJ6enxHus_EI5LtzZk/edit?usp=sharing)
 
-[NETCONF](https://www.ietf.org/slides/slides-edu-network-configuration-with-netconf-00.pdf)
+[YANG, NETCONF, RESTCONF - wiki page](https://github.com/LogeshVel/YANG/wiki)
 
-[YANG](https://www.ietf.org/slides/slides-edu-network-configuration-with-yang-00.pdf), [Simple slide](https://docs.google.com/presentation/d/1YVQEqhLCCr2s98sXo6RwQ6RBQ8arlnYlhQjFe_dEUIU/edit?usp=sharing)
+[YANG - ietf slides](https://www.ietf.org/slides/slides-edu-network-configuration-with-yang-00.pdf), [Simple slide](https://docs.google.com/presentation/d/1YVQEqhLCCr2s98sXo6RwQ6RBQ8arlnYlhQjFe_dEUIU/edit?usp=sharing)
 
-[NETCONF with YANG](https://www.ietf.org/slides/slides-edu-netconf-yang-00.pdf)
+[NETCONF - ietf slides](https://www.ietf.org/slides/slides-edu-network-configuration-with-netconf-00.pdf)
 
-[SDN](https://docs.google.com/presentation/d/11wvQLpAacYDpu_eoRg7NBDLqQDlWIzoEQG9Pi0khMh0/edit?usp=sharing)
+[NETCONF with YANG - ietf slides](https://www.ietf.org/slides/slides-edu-netconf-yang-00.pdf)
 
-[XML - YAML](https://docs.google.com/presentation/d/1vDApcLPsi-RMA_UwvivGcROuXtJNW8BCPbhVSROf4WE/edit?usp=sharing)
+[SDN - slides](https://docs.google.com/presentation/d/11wvQLpAacYDpu_eoRg7NBDLqQDlWIzoEQG9Pi0khMh0/edit?usp=sharing)
 
-[Wireshark](https://docs.google.com/presentation/d/15z8tCx5X5DWZTaale2g3RA57_j5lLuA1BHnhj5AF-4A/edit?usp=sharing)
+[XML, YAML - slides](https://docs.google.com/presentation/d/1vDApcLPsi-RMA_UwvivGcROuXtJNW8BCPbhVSROf4WE/edit?usp=sharing)
+
+[Wireshark - slides](https://docs.google.com/presentation/d/15z8tCx5X5DWZTaale2g3RA57_j5lLuA1BHnhj5AF-4A/edit?usp=sharing)
 
 ## Kafka
 
