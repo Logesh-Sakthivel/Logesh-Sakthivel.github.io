@@ -4,7 +4,7 @@ title: "Resources"
 author_profile: true
 ---
 
-This page contains some links to my Github repo/wiki where I have some notes on the below topic taken while learning. 
+This page contains some links to my Github repo/wiki/slides, where I have some notes on the below topics took while learning. 
 
 ## Primary resource
 
