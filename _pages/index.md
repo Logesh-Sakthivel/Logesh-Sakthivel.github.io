@@ -6,7 +6,9 @@ redirect_from:
     - /about.html
 ---
 
-Hello, I'm Logesh Sakthivel, a Software Engineer at embedUR Systems. I am passionate about Python, Go, Linux, API and expertise in Wireless and IoT domain.
+Hi there,
+
+I'm Logesh Sakthivel, a Software Engineer at embedUR Systems. I am passionate about Python, Go, Linux, API and expertise in Wireless and IoT domain.
 
 Experience
 ======
@@ -36,7 +38,7 @@ Hobby Projects
 My Articles
 ======
 
-Checkout my Medium articles [here](/posts/), where I talk about Golang, Protobuf, gRPC, GraphQL, etc..
+Checkout my Medium articles [here](/posts/), where I discuss technological topics, primarily those related to Golang, Protobuf, gRPC, GraphQL, and other topics I find fascinating.
 
 [//]: # (Provide the link to redirect to the Articles page of this site not the Medium profile link.)
 [//]: # (Since I try to populate my articles in this site based on the categories so it will be easier)
