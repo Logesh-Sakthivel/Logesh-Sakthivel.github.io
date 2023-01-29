@@ -13,9 +13,9 @@ I'm Logesh Sakthivel, a Software Engineer at embedUR Systems. I am passionate ab
 Experience
 ======
 
-I have almost 2 years of experience in IoT Wireless Solutions automation using Python, where I have automated CLI, GUI and APIs. Also, I have developed an Application that simulates the packets to communicate with the real device or the other simulator itself.
+I have over two years of expertise automating CLI, GUI, and REST APIs for IoT Wireless Solutions using Python. Additionally, I developed an application that simulates packets so that it may interface with a real device or another simulator.
 
-You can find my resume [here](/cv/).
+Here is a [link](/cv/) to my resume.
 
 Hobby Projects
 ======
