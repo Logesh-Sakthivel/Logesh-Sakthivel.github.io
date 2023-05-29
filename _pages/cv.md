@@ -83,6 +83,8 @@ Main Skills
 ======
 * Python
 
+* pyATS
+
 * Golang
 
 * REST API, CLI, GUI testing (Automation and Manual)

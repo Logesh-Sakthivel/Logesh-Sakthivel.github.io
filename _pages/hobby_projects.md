@@ -18,7 +18,7 @@ FinLyser is a mobile APP which is used to Track your expenses, lends, borrows, i
 
 You could add your lends, borrows, expenses and investments in this App. Also, add the budget plans.
 
-The Current version of the App only supports the Expenses and Investments visualization. User can visualize the Expenses and Investments over a period of time.
+The Current version of the App supports only the Expenses and Investments visualization. User can visualize the Expenses and Investments over a period of time.
 {: .notice--primary}
 
 Visualize your Total Expenses and Investments, Year wise expenses and investments, Month wise expenses and investments on the particular year and Day wise expenses and investments on the particular month.
