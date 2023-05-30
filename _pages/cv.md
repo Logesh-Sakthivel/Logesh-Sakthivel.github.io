@@ -12,7 +12,7 @@ Work experience
 ======
 
 * #### Software Engineer <span style="color:#b5b5b5;font-size: 12px">June 2021 - Present</span>
-  * ###### _Jeroboam - Ultra Reliable Wireless Backhaul (formerly Fluidmesh)_ <span style="color:#b5b5b5;font-size: 11px">Apr 2022 - Present</span>
+  * ###### _CURWB - Cisco Ultra Reliable Wireless Backhaul (formerly Fluidmesh)_ <span style="color:#b5b5b5;font-size: 11px">Apr 2022 - Present</span>
 
     Cisco Ultra-Reliable Wireless Backhaul is a wireless technology that enables you to connect moving assets or extend your network where running fiber isn't feasible or affordable. It delivers up to a 7.8-Gbps data rate, 99.995% availability, less than 10-ms latency, and zero packet loss with seamless handoffs.
     
@@ -21,6 +21,8 @@ Work experience
     Automated the end to end Solution requirement of the product by configuring the device, passing the traffic streams, and performing the test scenarios.
 
     Handled different Layer Suites(L2, L3) and Verticals based on the customer deployment scenarios in the single script file.
+
+    Automated the Ixia traffic profiles based on the requirement of the test scenarios.
 
     Pushed the testsuite end results to the DB and notified the WebEx teams with testsuite summary table with all the traffic statistics.
 
@@ -88,6 +90,10 @@ Main Skills
 * Golang
 
 * REST API, CLI, GUI testing (Automation and Manual)
+
+* pytest
+
+* Django basics
 
 Tools
 ======

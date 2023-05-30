@@ -13,9 +13,9 @@ I'm Logesh Sakthivel, a Software Engineer at embedUR Systems. I am passionate ab
 Experience
 ======
 
-I have over two years of expertise in automating CLI, GUI, and REST APIs for IoT Wireless Solutions using Python. Additionally, I have developed an application that simulates packets so that it may interface with a real device or another simulator.
+I've been using Python to automate CLI, GUI, and REST APIs for IoT Wireless Solutions for more than two years. Furthermore, I created a programme that simulates packets so it may communicate with a real device or another simulator.
 
-Here is a [link](/cv/) to my resume.
+My resume is available [here](/cv/).
 
 Hobby Projects
 ======
@@ -31,6 +31,8 @@ Hobby Projects
 - [deldirrecur](/hobby-projects#deldirrecur)  - a CLI app to delete the particular Directory from the given path recursively
 
 - [Flet Webapp](/hobby-projects#leave_me_a_message) - a webapp used to leave me a message by the user
+
+- Currently, working on the TCP analyser (CLI and GUI app)
 
 [//]: # (Provide the link to redirect to the projects page of this site not the Github link.)
 [//]: # (Main project page and then individual page to explain the projects briefly,, usage...)
