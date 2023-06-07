@@ -11,16 +11,38 @@ redirect_from:
 Work experience
 ======
 
-* #### Software Engineer <span style="color:#b5b5b5;font-size: 12px">June 2021 - Present</span>
+* #### Senior Software Engineer <span style="color:#b5b5b5;font-size: 12px">June 2023 - Present</span>
+  * ###### _CURWB - Cisco Ultra Reliable Wireless Backhaul (formerly Fluidmesh)_ <span style="color:#b5b5b5;font-size: 11px">June 2023 - Present</span>
+
+    Cisco Ultra-Reliable Wireless Backhaul is a wireless technology that enables you to connect moving assets or extend your network where running fiber isn't feasible or affordable. It delivers up to a 7.8-Gbps data rate, 99.995% availability, less than 10-ms latency, and zero packet loss with seamless handoffs.
+    
+    I am with the team of 3 members responsible for the Solution testing of the Magnum and Jeroboam product.
+
+    Point to Point link distance testing. Configuring the radio with the distance (2kms, 3kms, 4kms, 6kms, 8kms, 10kms) and getting the negotiated rate between the Point to Point radios and passing the 60% of the negotiated rate and verifying the results.
+
+    Automation includes API and CLI using pyATS framework in Python.
+
+
+* #### Software Engineer <span style="color:#b5b5b5;font-size: 12px">June 2021 - May 2023</span>
   * ###### _CURWB - Cisco Ultra Reliable Wireless Backhaul (formerly Fluidmesh)_ <span style="color:#b5b5b5;font-size: 11px">Apr 2022 - Present</span>
 
     Cisco Ultra-Reliable Wireless Backhaul is a wireless technology that enables you to connect moving assets or extend your network where running fiber isn't feasible or affordable. It delivers up to a 7.8-Gbps data rate, 99.995% availability, less than 10-ms latency, and zero packet loss with seamless handoffs.
     
-    I am with the team of 3 members responsible for the Solution testing of this product.
+    I am with the team of 3 members responsible for the Solution testing of the Magnum and Jeroboam product.
 
-    Automated the end to end Solution requirement of the product by configuring the device, passing the traffic streams, and performing the test scenarios.
+    Automated the end to end Solution requirement of the product by configuring the device, passing the traffic streams, and performing the test scenarios(Failover and Failback scenarios).
 
-    Handled different Layer Suites(L2, L3) and Verticals based on the customer deployment scenarios in the single script file.
+    Handled different Layer Suites(L2, L3) and Verticals (rails, mining, windfarm) based on the customer deployment scenarios in the single script file. Wireless client impact on REP switch convergence validation in both manual and automation.
+
+    GG - Global Gateway
+
+    ME - Mesh end
+    
+    MP - Mesh point
+    
+    L2 topology : ME -> MP(comm tower) -> MP(backhaul) -> MP(vehicle).
+    
+    L3 topology : GG -> ME -> MP(backhaul) -> MP(vehicle)
 
     Automated the Ixia traffic profiles based on the requirement of the test scenarios.
 
@@ -42,6 +64,8 @@ elastic service rollouts via a fabric-based infrastructure.
     With the team of 3 members responsible for testing the campus Wireless connectivity.
 
     Automated the Device onboarding scenario in the Cisco DNAC, image activation, providing Wireless connectivity and verifying the Segmentation (SGT).
+
+    Topology : DNAC -> WLC -> AP -> Wireless clients
 
     Automation includes API, GUI and CLI using pyATS framework in Python.
   
@@ -84,15 +108,10 @@ Education History
 Main Skills
 ======
 * Python
-
 * pyATS
-
 * Golang
-
 * REST API, CLI, GUI testing (Automation and Manual)
-
 * pytest
-
 * Django basics
 
 Tools
@@ -104,6 +123,7 @@ Tools
 * Wireshark
 * Scapy
 * IxNetwork
+* Jenkins
 
 Protocols
 ======

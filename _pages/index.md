@@ -8,7 +8,7 @@ redirect_from:
 
 Hi there,
 
-I'm Logesh Sakthivel, a Software Engineer at embedUR Systems. I am passionate about Python, Go, Linux, API and expertise in Wireless and IoT domain.
+I'm Logesh Sakthivel, and I work as a Senior Software Engineer at embedUR Systems. I am passionate about Python, Go, Linux, API and expertise in Wireless and IoT domain.
 
 Experience
 ======
