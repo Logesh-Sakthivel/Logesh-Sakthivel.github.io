@@ -157,3 +157,13 @@ This page contains some links to my Github repo/wiki/slides, where I have some n
 
 [Ansible stuffs](https://github.com/LogeshVel/ansible_stuffs)
 
+
+## tcpdump
+
+[tcpdump-for-dummies](http://www.alexonlinux.com/tcpdump-for-dummies#introduction)
+
+[A tcpdump Tutorial with Examples](https://danielmiessler.com/p/tcpdump/)
+
+[tcpdump cheatsheet](https://packetlife.net/media/library/12/tcpdump.pdf)
+
+[tcpdump advanced filters](https://blog.wains.be/2007/2007-10-01-tcpdump-advanced-filters/)
