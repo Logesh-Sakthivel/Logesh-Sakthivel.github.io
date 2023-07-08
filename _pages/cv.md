@@ -12,16 +12,13 @@ Work experience
 ======
 
 * #### Senior Software Engineer <span style="color:#b5b5b5;font-size: 12px">June 2023 - Present</span>
-  * ###### _CURWB - Cisco Ultra Reliable Wireless Backhaul (formerly Fluidmesh)_ <span style="color:#b5b5b5;font-size: 11px">June 2023 - Present</span>
+  * ###### _Cisco Cyber Vision_ <span style="color:#b5b5b5;font-size: 11px">June 2023 - Present</span>
 
-    Cisco Ultra-Reliable Wireless Backhaul is a wireless technology that enables you to connect moving assets or extend your network where running fiber isn't feasible or affordable. It delivers up to a 7.8-Gbps data rate, 99.995% availability, less than 10-ms latency, and zero packet loss with seamless handoffs.
+    Cisco Cyber Vision enables organizations to ensure the continuity, resilience, and safety of their industrial operations by providing continuous visibility into their Industrial Control Systems (ICS) to understand their security posture, improve their industrial networks efficiency, and extend IT security to their industrial operations.
     
-    I am with the team of 3 members responsible for the Solution testing of the Magnum and Jeroboam product.
+    I am with the team of 3 members responsible for the Scale and Stress testing.
 
-    Point to Point link distance testing. Configuring the radio with the distance (2kms, 3kms, 4kms, 6kms, 8kms, 10kms) and getting the negotiated rate between the Point to Point radios and passing the 60% of the negotiated rate and verifying the results.
-
-    Automation includes API and CLI using pyATS framework in Python.
-
+    Automation includes CV REST APIs and CLIs in pyATS framework
 
 * #### Software Engineer <span style="color:#b5b5b5;font-size: 12px">June 2021 - May 2023</span>
   * ###### _CURWB - Cisco Ultra Reliable Wireless Backhaul (formerly Fluidmesh)_ <span style="color:#b5b5b5;font-size: 11px">Apr 2022 - Present</span>
@@ -47,6 +44,8 @@ Work experience
     Automated the Ixia traffic profiles based on the requirement of the test scenarios.
 
     Pushed the testsuite end results to the DB and notified the WebEx teams with testsuite summary table with all the traffic statistics.
+
+    Point to Point link distance testing. Configuring the radio with the distance (2kms, 3kms, 4kms, 6kms, 8kms, 10kms, 15kms, 20kms, 32.5kms) and getting the negotiated rate between the Point to Point radios and passing the 60% of the negotiated rate and verifying the results.
 
     Automation includes API and CLI using pyATS framework in Python.
 
