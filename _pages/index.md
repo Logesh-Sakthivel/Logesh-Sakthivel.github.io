@@ -8,12 +8,14 @@ redirect_from:
 
 Hi there,
 
-I'm Logesh Sakthivel, and I work as a Senior Software Engineer at embedUR Systems. I am passionate about Python, Go, Linux, API and expertise in Wireless and IoT domain.
+I'm Logesh Sakthivel, and I work as a Senior Engineer (QA) at VVDN Technologies. I am passionate about Python, Go, Linux, API and expertise in Wireless and IoT domain.
 
 Experience
 ======
 
 I've been using Python to automate CLI, GUI, and REST APIs for IoT Wireless Solutions for more than two years. Furthermore, I created a programme that simulates packets so it may communicate with a real device or another simulator.
+
+Currently, working on the TCU board automation testing and testing framework development.
 
 My resume is available [here](/cv/).
 
