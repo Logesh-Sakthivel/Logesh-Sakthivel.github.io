@@ -8,13 +8,14 @@ redirect_from:
 ---
 <div class="full">
 {% capture notice-2 %}
-Work experience
+Work experience  <span style="color:#b5b5b5;font-size: 15px">Feb 2021 - Present</span>
 ======
 
 * #### Senior Engineer - QA <span style="color:#b5b5b5;font-size: 12px">Jan 2024 - Present</span>
   * ###### _TCU board automation_ <span style="color:#b5b5b5;font-size: 11px">Feb 2024 - Present</span>
 
     Responsible for pytest framework plugin development based on requirement for the TCU testing. Automated TP-Link smart device using Kasa API.
+    
     Leading automation team, where I am responsible for strategic planning and prioritizing automation tasks.
     
     Reviewing and approving peer pull requests. Automating and executing test cases. Qualifying release builds through sanity testing, followed by screening regression and full regression testing. Conducting MVP tests to validate the board and build for customer shipment. Collaborating with the DevOps team to develop and optimize the automation pipeline.
