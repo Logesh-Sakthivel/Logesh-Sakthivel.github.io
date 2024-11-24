@@ -4,6 +4,12 @@ title: "Articles"
 author_profile: true
 ---
 
+## Python
+
+- [Python Asyncio](https://towardsdev.com/python-asyncio-5505827fb840)
+
+- [Cooperative multitasking — Asyncio](https://medium.com/@LogeshSakthivel/cooperative-multitasking-asyncio-e142bd6b044a)
+
 ## Golang
 
 
@@ -122,3 +128,7 @@ author_profile: true
 - [Flutter apps in Python — Flet](https://towardsdev.com/flutter-apps-in-python-flet-3fccdaabc34f)
 
 - [Simple Webapp with Flet and Telegram bot](https://towardsdev.com/simple-webapp-with-flet-and-telegram-bot-219dba692363)
+
+## Linux
+
+- [General Boot process — explained](https://medium.com/@LogeshSakthivel/general-boot-process-explained-b77a61dccc49)

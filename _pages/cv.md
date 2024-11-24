@@ -11,8 +11,32 @@ redirect_from:
 Work experience
 ======
 
-* #### Senior Software Engineer <span style="color:#b5b5b5;font-size: 12px">June 2023 - Present</span>
-  * ###### _Cisco Cyber Vision_ <span style="color:#b5b5b5;font-size: 11px">June 2023 - Present</span>
+* #### Senior Engineer - QA <span style="color:#b5b5b5;font-size: 12px">Jan 2024 - Present</span>
+  * ###### _TCU board automation_ <span style="color:#b5b5b5;font-size: 11px">Feb 2024 - Present</span>
+
+    Responsible for pytest framework plugin development based on requirement for the TCU testing. Automated TP-Link smart device using Kasa API.
+    Leading automation team, where I am responsible for strategic planning and prioritizing automation tasks.
+    
+    Reviewing and approving peer pull requests. Automating and executing test cases. Qualifying release builds through sanity testing, followed by screening regression and full regression testing. Conducting MVP tests to validate the board and build for customer shipment. Collaborating with the DevOps team to develop and optimize the automation pipeline.
+
+    TCU - Trusted Control/Compute Unit.
+    The Axiado AX3000/AX2000 SoC with built-in AI provides the industry’s most robust, hardware-anchored solution to detect and defend against ransomware and cyberattacks in cloud datacenters, 5G networks, and network switches.
+
+    Connection:
+    Windows machine -serial-conection-> TCU -pcie-connection-> Linux host/Server
+
+    From automation server SSH to the Windows machine and then take the serial connection to the TCU and do our testing.
+
+  * ###### _Network Test Platform automation_ <span style="color:#b5b5b5;font-size: 11px">Jan 2024 - Jan 2024</span>
+
+    Developed library for automating the JDSU MTS-5800 Handheld Network Tester tool from ground up using Python. JDSU stands for JDS Uniphase Corporation, which is now known as Viavi Solutions Inc. Viavi Solutions is a company that manufactures network test, measurement, and assurance technology.
+
+    E2E automation of the tool from traffic configuration to statistics collection using CLI. Traffics like Layer 2 to Layer 4 and Application traffics.
+
+    Used Netmiko module for CLI conenction to the device.
+
+* #### Senior Software Engineer <span style="color:#b5b5b5;font-size: 12px">June 2023 - Dec 2023</span>
+  * ###### _Cisco Cyber Vision_ <span style="color:#b5b5b5;font-size: 11px">June 2023 - Dec 2023</span>
 
     Cisco Cyber Vision enables organizations to ensure the continuity, resilience, and safety of their industrial operations by providing continuous visibility into their Industrial Control Systems (ICS) to understand their security posture, improve their industrial networks efficiency, and extend IT security to their industrial operations.
     
@@ -21,7 +45,7 @@ Work experience
     Automation includes CV REST APIs and CLIs in pyATS framework
 
 * #### Software Engineer <span style="color:#b5b5b5;font-size: 12px">June 2021 - May 2023</span>
-  * ###### _CURWB - Cisco Ultra Reliable Wireless Backhaul (formerly Fluidmesh)_ <span style="color:#b5b5b5;font-size: 11px">Apr 2022 - Present</span>
+  * ###### _CURWB - Cisco Ultra Reliable Wireless Backhaul (formerly Fluidmesh)_ <span style="color:#b5b5b5;font-size: 11px">Apr 2022 - May 2023</span>
 
     Cisco Ultra-Reliable Wireless Backhaul is a wireless technology that enables you to connect moving assets or extend your network where running fiber isn't feasible or affordable. It delivers up to a 7.8-Gbps data rate, 99.995% availability, less than 10-ms latency, and zero packet loss with seamless handoffs.
     
