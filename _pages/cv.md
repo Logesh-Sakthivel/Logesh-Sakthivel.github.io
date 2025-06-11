@@ -20,6 +20,8 @@ Work experience  <span style="color:#b5b5b5;font-size: 15px">Feb 2021 - Present<
     
     Reviewing and approving peer pull requests. Automating and executing test cases. Qualifying release builds through sanity testing, followed by screening regression and full regression testing. Conducting MVP tests to validate the board and build for customer shipment. Collaborating with the DevOps team to develop and optimize the automation pipeline.
 
+    Designed and integrated a custom DUT metadata(like SW version, CPU details...) widget into the Allure report's Overview page by programmatically modifying the generated HTML using BeautifulSoup (Python), significantly enhancing report readability and traceability for stakeholders during test result analysis.
+
     TCU - Trusted Control/Compute Unit.
     The Axiado AX3000/AX2000 SoC with built-in AI provides the industry’s most robust, hardware-anchored solution to detect and defend against ransomware and cyberattacks in cloud datacenters, 5G networks, and network switches.
 
