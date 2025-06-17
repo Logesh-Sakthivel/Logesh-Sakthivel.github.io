@@ -13,7 +13,7 @@ I'm Logesh Sakthivel, and I work as a Senior Engineer (QA) at VVDN Technologies.
 Experience
 ======
 
-I've been using Python to automate CLI, GUI, and REST APIs for more than three years. Furthermore, I created a programme that simulates packets so it may communicate with a real device or another simulator.
+With over four years of experience in automating CLI, GUI, and REST APIs using Python in the Networking and IoT domains, I also bring hands-on expertise in CI/CD pipeline integration using Jenkins. Furthermore, I created a programme that simulates packets so it may communicate with a real device or another simulator.
 
 In my current role, I lead a talented automation team, where I am responsible for strategic planning and prioritizing automation tasks. My goal is to foster innovation and ensure that our projects align with business objectives, driving impactful results. Additionally, I develop and maintain our testing framework by customizing Pytest for TCU board automation testing.
 
