@@ -11,8 +11,20 @@ redirect_from:
 Work experience  <span style="color:#b5b5b5;font-size: 15px">Feb 2021 - Present</span>
 ======
 
-* #### Senior Engineer - QA <span style="color:#b5b5b5;font-size: 12px">Jan 2024 - Present</span>
-  * ###### _TCU board automation_ <span style="color:#b5b5b5;font-size: 11px">Feb 2024 - Present</span>
+* #### Engineer III Spec Test Automation <span style="color:#b5b5b5;font-size: 12px">Aug 2025 - Present</span>
+  * ###### _SDN Controller_ <span style="color:#b5b5b5;font-size: 11px">Aug 2025 - Present</span>
+
+    Executed comprehensive regression testing and certification for SDN controller releases, validating system-wide functionality across both monolithic (BNC) and Kubernetes-based microservice (NEAP) architectures.
+    
+    Developed automation test scripts using Playwright for both the Controller Admin Console UI and its
+    corresponding APIs.
+    
+    Proactively initiated, designed, and implemented a shell-based bootstrap script to fully automate testbed setup and device onboarding, eliminating 90% of testbed-level setup errors and ensuring regression failures were isolated to genuine feature defects.
+    
+    Acted as the technical liaison for the Operations team, analyzing and triaging all UAT-reported issues to ensure rapid routing and resolution by the appropriate development teams.
+
+* #### Senior Engineer - QA <span style="color:#b5b5b5;font-size: 12px">Jan 2024 - Aug 2025</span>
+  * ###### _TCU board automation_ <span style="color:#b5b5b5;font-size: 11px">Feb 2024 - Aug 2025</span>
 
     Responsible for pytest framework plugin development based on requirement for the TCU testing. Automated TP-Link smart device using Kasa API.
     

@@ -8,14 +8,14 @@ redirect_from:
 
 Hi there,
 
-I'm Logesh Sakthivel, and I work as a Senior Engineer (QA) at VVDN Technologies. I am passionate about Python, Go, Linux, API and expertise in Wireless and IoT domain.
+I'm Logesh Sakthivel, and I work as a Engineer III Spec Test Automation at Verizon. I am passionate about Python, Go, Linux, API and expertise in Networking, Wireless and IoT domain.
 
 Experience
 ======
 
-With over four years of experience in automating CLI, GUI, and REST APIs using Python in the Networking and IoT domains, I also bring hands-on expertise in CI/CD pipeline integration using Jenkins. Furthermore, I created a programme that simulates packets so it may communicate with a real device or another simulator.
+With over 4.5 years of experience in automating CLI, GUI, and REST APIs using Python in the Networking and IoT domains, I also bring hands-on expertise in CI/CD pipeline integration using Jenkins. Furthermore, I created a programme that simulates packets so it may communicate with a real device or another simulator.
 
-In my current role, I lead a talented automation team, where I am responsible for strategic planning and prioritizing automation tasks. My goal is to foster innovation and ensure that our projects align with business objectives, driving impactful results. Additionally, I develop and maintain our testing framework by customizing Pytest for TCU board automation testing.
+In my current role, As a test automation engineer for the SDN Controller,I work on regression testing and certification for new releases. I developed UI and API automation using Playwright and engineered a bootstrap script that automated testbed setup, eliminating 90% of setup errors. I also served as the technical liaison for UAT, triaging all reported issues to ensure rapid resolution.
 
 My resume is available [here](/cv/).
 
