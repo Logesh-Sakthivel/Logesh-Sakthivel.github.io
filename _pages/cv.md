@@ -15,13 +15,23 @@ Work experience  <span style="color:#b5b5b5;font-size: 15px">Feb 2021 - Present<
   * ###### _SDN Controller_ <span style="color:#b5b5b5;font-size: 11px">Aug 2025 - Present</span>
 
     Executed comprehensive regression testing and certification for SDN controller releases, validating system-wide functionality across both monolithic (BNC) and Kubernetes-based microservice (NEAP) architectures.
+
+    BNC and NEAP is the vendor agnostic SDN Controller which is used to configure the different network type devices (MSE, UT, ULH) from different vendors using the uniform North bound REST API. The Soutbound interface from the Controller to device is either NETCONF(NCY-Netconf Yang based) or ME (Management Entity). ME is the vendor based controller to controll thier devices. Example Ciena devices has MCP(Manage Control and Plan), Cisco has EPNM(Evolved Programmable Network Manager)
+
+    OSS -> NB(REST API) -> BNC/NEAP -> SB(REST API) -> ME -> SB(NETCONF) -> Devices
+                                    -> SB(NETCONF)  -> Devices
     
+    Different testsuites based on the Network type and deployment scenarios like EVC, ELINE services. Testcases are like configuring using the NB API call and verify the configuration. Configuring/Creating ethernet, VLAN, LAG, static routes, LSP tunnels. Creating SNC(Sub network Connection)circuit in photonic layer.
+
+    Admin Console is the WebUI for managing the services and devices in the NEAP architecture.
     Developed automation test scripts using Playwright for both the Controller Admin Console UI and its
     corresponding APIs.
     
     Proactively initiated, designed, and implemented a shell-based bootstrap script to fully automate testbed setup and device onboarding, eliminating 90% of testbed-level setup errors and ensuring regression failures were isolated to genuine feature defects.
     
     Acted as the technical liaison for the Operations team, analyzing and triaging all UAT-reported issues to ensure rapid routing and resolution by the appropriate development teams.
+
+    Developed FastAPI based backend service for the test device simulation using ConfD containers. Using the open source yang models from the different device vendors like Cisco, Juniper, Nokia, Calix, Ciena we created the docker container using the ConfD container based on the user request. Device creation, deletion, device mounting on the ODL(OpenDay Light SDN Controller).
 
 * #### Senior Engineer - QA <span style="color:#b5b5b5;font-size: 12px">Jan 2024 - Aug 2025</span>
   * ###### _TCU board automation_ <span style="color:#b5b5b5;font-size: 11px">Feb 2024 - Aug 2025</span>
