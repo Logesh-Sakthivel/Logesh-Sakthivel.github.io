@@ -18,9 +18,9 @@ Work experience  <span style="color:#b5b5b5;font-size: 15px">Feb 2021 - Present<
 
     BNC and NEAP is the vendor agnostic SDN Controller which is used to configure the different network type devices (MSE, UT, ULH) from different vendors using the uniform North bound REST API. The Soutbound interface from the Controller to device is either NETCONF(NCY-Netconf Yang based) or ME (Management Entity). ME is the vendor based controller to controll thier devices. Example Ciena devices has MCP(Manage Control and Plan), Cisco has EPNM(Evolved Programmable Network Manager)
 
-    OSS -> NB(REST API) -> BNC/NEAP -> SB(REST API) -> ME -> SB(NETCONF) -> Devices
-                                    
-                                    -> SB(NETCONF)  -> Devices
+        OSS -> NB(REST API) -> BNC/NEAP -> SB(REST API) -> ME -> SB(NETCONF) -> Devices
+                                      
+                                        -> SB(NETCONF)  -> Devices
     
     Different testsuites based on the Network type and deployment scenarios like EVC, ELINE services. Testcases are like configuring using the NB API call and verify the configuration. Configuring/Creating ethernet, VLAN, LAG, static routes, LSP tunnels. Creating SNC(Sub network Connection)circuit in photonic layer.
 
