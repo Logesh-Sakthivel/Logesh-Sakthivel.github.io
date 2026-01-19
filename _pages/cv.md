@@ -32,7 +32,9 @@ Work experience  <span style="color:#b5b5b5;font-size: 15px">Feb 2021 - Present<
     
     Acted as the technical liaison for the Operations team, analyzing and triaging all UAT-reported issues to ensure rapid routing and resolution by the appropriate development teams.
 
-    Developed FastAPI based backend service for the test device simulation using ConfD containers. Using the open source yang models from the different device vendors like Cisco, Juniper, Nokia, Calix, Ciena we created the docker container using the ConfD container based on the user request. Device creation, deletion, device mounting on the ODL(OpenDay Light SDN Controller).
+    Developed a FastAPI-based backend to simulate network devices (Cisco, Juniper, Nokia, etc.) using ConfD containers and vendor-specific Yang models. Managed the full device lifecycle, including pulling and compiling YANG models, building custom ConfD-based images, and deploying containers with exposed SSH/NETCONF ports and mounting to the OpenDaylight (ODL) controller. Built the docker container management modules and a WebSocket API using asyncssh to enable asynchronous SSH access to simulated devices directly from the UI.
+
+        UI (Device vendor, model, version) -> Backend (Dockerfile -> Pull the specific yang models, compile it, start the confd script -> Docker image -> Run the image -> Container(Virtual device: SSH & Nectconf port exposed) -> Now virtual device is spined up)
 
 * #### Senior Engineer - QA <span style="color:#b5b5b5;font-size: 12px">Jan 2024 - Aug 2025</span>
   * ###### _TCU board automation_ <span style="color:#b5b5b5;font-size: 11px">Feb 2024 - Aug 2025</span>
