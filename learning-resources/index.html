@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Learning archive – Logesh Sakthivel</title>
+<meta name="description" content="Slides, code and wiki notes from my learning: Golang, gRPC, YANG, NETCONF, wireless, Kafka, Docker and more.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230d1523'/%3E%3Cpath d='M7 22V10l9 8 9-8v12' stroke='%23f4b942' stroke-width='3' fill='none'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0d1523;--panel:#14213a;--line:#25365a;--text:#dbe6f5;--mute:#8aa0bd;--accent:#f4b942;--sw:#b69cf5;--sdn:#6cb4ff;--soc:#7fd8a3;--wl:#5fd6d6;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:17px/1.6 "IBM Plex Sans",system-ui,sans-serif}
+a{color:var(--sdn)}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.wrap{max-width:1000px;margin:0 auto;padding:0 24px}
+header{position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
+#net{position:absolute;inset:0;width:100%;height:100%;opacity:.55}
+nav.top{position:relative;padding:18px 0;font:.9rem "JetBrains Mono",monospace;display:flex;gap:22px;flex-wrap:wrap}
+nav.top a{color:var(--mute);text-decoration:none}
+nav.top a:hover,nav.top a[aria-current]{color:var(--text)}
+.hero{position:relative;padding:56px 0 48px}
+h1{font:700 clamp(2rem,6vw,3.2rem)/1.1 "JetBrains Mono",monospace;margin:0 0 14px;letter-spacing:-.02em}
+.hero p{max-width:62ch;margin:0}
+.feat{display:block;margin:32px 0 0;padding:16px 20px;background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--accent);color:var(--text);text-decoration:none}
+.feat:hover{border-color:var(--accent)}
+.feat b{font:700 1rem "JetBrains Mono",monospace;display:block}
+.feat span{color:var(--mute);font-size:.95rem}
+.bar{position:sticky;top:0;z-index:2;background:var(--bg);padding:16px 0 12px;border-bottom:1px solid var(--line)}
+.q{display:flex;align-items:center;gap:10px;font:1rem "JetBrains Mono",monospace;margin-bottom:12px}
+.q label{color:var(--accent)}
+.q input{flex:1;min-width:0;background:var(--panel);border:1px solid var(--line);color:var(--text);padding:8px 12px;font:inherit}
+.chips{display:flex;flex-wrap:wrap;gap:6px;font:.8rem "JetBrains Mono",monospace}
+.chips button{background:none;border:1px solid var(--line);color:var(--mute);padding:3px 10px;cursor:pointer;font:inherit}
+.chips button:hover{color:var(--text)}
+.chips button[aria-pressed=true]{border-color:var(--accent);color:var(--accent);background:rgba(244,185,66,.1)}
+#count{color:var(--mute);font:.85rem "JetBrains Mono",monospace;margin:14px 0 0}
+section{padding-top:36px}
+h2{font:400 1.05rem "JetBrains Mono",monospace;color:var(--mute);margin:0 0 12px}
+h2::before{content:"$ ls ";color:var(--accent)}
+h2 small{font-size:.8rem;margin-left:8px}
+.list{border:1px solid var(--line);background:var(--panel)}
+.row{display:grid;grid-template-columns:84px 1fr;gap:12px;padding:9px 14px;color:var(--text);text-decoration:none;border-left:3px solid transparent}
+.row+.row{border-top:1px solid var(--line)}
+.row:hover{border-left-color:var(--accent);filter:brightness(1.3)}
+.row i{font:normal .8rem/1.9 "JetBrains Mono",monospace}
+.row[data-t=s]{background:rgba(108,180,255,.09)}.row[data-t=s] i{color:var(--sdn)}
+.row[data-t=r]{background:rgba(127,216,163,.09)}.row[data-t=r] i{color:var(--soc)}
+.row[data-t=w]{background:rgba(182,156,245,.09)}.row[data-t=w] i{color:var(--sw)}
+.row[data-t=x]{background:rgba(95,214,214,.09)}.row[data-t=x] i{color:var(--wl)}
+.empty{padding:40px 0;color:var(--mute)}
+footer{margin:80px 0 0;padding:32px 0 48px;border-top:1px solid var(--line);color:var(--mute);font-size:.9rem}
+@media(max-width:560px){.row{grid-template-columns:64px 1fr}}
+</style>
+</head>
+<body>
+<header>
+<canvas id="net" aria-hidden="true"></canvas>
+<div class="wrap">
+<nav class="top" aria-label="Site"><a href="/">home</a><a href="/learning-resources/" aria-current="page">learning</a><a href="https://medium.com/@LogeshSakthivel">writing</a><a href="https://github.com/LogeshVel">github</a></nav>
+<div class="hero">
+<h1>Learning archive</h1>
+<p>Slides, code and wiki notes I wrote while learning. Most topics have both a short deck and runnable examples. Filter by topic, or type a keyword.</p>
+<a class="feat" href="https://github.com/LogeshVel/learning_resources/wiki"><b>All learnings: wiki</b><span>The main index. Start here if you're not sure what you need.</span></a>
+</div>
+</div>
+</header>
+
+<main class="wrap">
+<div class="bar">
+<div class="q"><label for="q">grep</label><input id="q" type="search" placeholder="grpc, yang, kafka..." autocomplete="off"></div>
+<div class="chips" id="chips" role="group" aria-label="Filter by topic"></div>
+</div>
+<p id="count" aria-live="polite"></p>
+<div id="out"></div>
+</main>
+<footer><div class="wrap">Types: slides are Google decks, code is a GitHub repo, wiki is a GitHub wiki, ref is an outside article.</div></footer>
+
+<script>
+const GH='https://github.com/LogeshVel/',S=id=>'https://docs.google.com/presentation/d/'+id+'/edit?usp=sharing';
+const T={s:'slides',r:'code',w:'wiki',x:'ref'};
+/* type, title, id | repo | url */
+const D=[
+['Golang',[['s','Golang 1','1FsaNXN-CSaQBWW_v70C_xWt2e1pHHzGd9Xna5jta_6Y'],['s','Golang 2','1einB0LEjUbBpdE0drq_9IDe6P_rpHM3l_gA2XRDVhWI'],['r','Go programs','go_programs'],['w','Golang concurrency','go_programs'],['r','Simple REST API in Golang','simple_restapi']]],
+['Protobuf',[['s','Protobuf','1EgFglVoset9YAdOzMWGHGM29ubm1ErL8PyUvj4N_Wzo'],['r','Simple proto files','simple_gRPC'],['r','Protobuf basic codes','protobuf_basic_codes'],['r','Protobuf in Golang','protobuf_in_go'],['r','Python REST API with protobuf messages','python_rest_api_with_protobuf'],['r','Basic gRPC communication in Python','grpc_with_python'],['r','Golang HTTP server and Python HTTP client using protobuf messages','golang_server_python_client_protobuf']]],
+['gRPC',[['s','gRPC','1hMudVWchk0JuQeNhegEsQ5JuXvFjCrGr_llTEnLEKi4'],['r','Four gRPC modes','four_gRPC_modes'],['r','CRUD gRPC server in Golang for gRPC and REST clients, using gRPC-Gateway','grpc_server_grpc_and_REST_client'],['r','CRUD gRPC API: Golang server, Python client','Golang_grpc_server_Python_grpc_client']]],
+['AWS',[['s','Cloud Practitioner','1tJKzPu12719vsczZzYOL2dKV4s1ZQ5eaVPOLfVeIO6c'],['s','Solutions Architect Associate','1WdTTN7WM-Fk5ZjWo624mUdVM7pTULymvQ7mVvz1Hivw']]],
+['Networking',[['w','802.11','802.11'],['s','Wireless','1N6F5ZLEZ3CToYWpY0Ad6YrW6HDsVCLSVYpbppz-pn5w'],['s','Wireless security','1i9vu_FOEeggguJughoEtEn6nc6Jkqr0k1ZpIT0EjXjY'],['s','802.1x and EAP','1v5LVQkKP4uqZYpM3ZqaX2qLT8iJhs67nge9_IXp_mw8'],['s','MPLS','1K6LvrskOl10gYcOUcw2wX_hUAiJ6enxHus_EI5LtzZk'],['w','YANG, NETCONF, RESTCONF','YANG'],['x','YANG: IETF slides','https://www.ietf.org/slides/slides-edu-network-configuration-with-yang-00.pdf'],['s','YANG: simple slides','1YVQEqhLCCr2s98sXo6RwQ6RBQ8arlnYlhQjFe_dEUIU'],['x','NETCONF: IETF slides','https://www.ietf.org/slides/slides-edu-network-configuration-with-netconf-00.pdf'],['x','NETCONF with YANG: IETF slides','https://www.ietf.org/slides/slides-edu-netconf-yang-00.pdf'],['s','SDN','11wvQLpAacYDpu_eoRg7NBDLqQDlWIzoEQG9Pi0khMh0'],['s','XML and YAML','1vDApcLPsi-RMA_UwvivGcROuXtJNW8BCPbhVSROf4WE'],['s','Wireshark','15z8tCx5X5DWZTaale2g3RA57_j5lLuA1BHnhj5AF-4A']]],
+['Kafka',[['s','Kafka','1QBmkjptzwGbjsEm2yOW_2PtCAQ6Z9MZDHAAI3ReIL_8'],['r','Kafka notes','Kafka-notes'],['w','Kafka notes','Kafka-notes'],['r','Producers and consumers in Python with aiokafka','Kafka_with_aiokafka'],['r','Kafka producer fed from an event stream','EventStream_to_Kafka']]],
+['Bash',[['r','Bash scripting','Bash-ShellScripting'],['w','Bash commands with examples','Bash-ShellScripting'],['r','Bash scripts','bash_scripting'],['s','Bash scripting','1v3nk0E1Cxrr5uXX9x7ioX62elk1nJ4c11D60aT2yUQM'],['s','Linux bash commands','1icozMgWR2fhln8ZImrEdA_EFKxrmlBk_PC0SlH1x-mU']]],
+['Django',[['w','Django','Django']]],
+['GraphQL',[['s','GraphQL','11RRnUK6B4hGtTtbymZ6VYtzDQxo5vk07CdI5-OmhZKk'],['r','Golang GraphQL server with gqlgen','graphql_server_gqlgen'],['r','GraphQL CRUD API in Python with ariadne (schema-first)','GraphQL_basics_using_ariadne']]],
+['Cryptography',[['s','Encryption and hashing','15jPAxz2azo9jsMd01ENDy6haH2Dlfko-hcEmqrMTAF0'],['w','SSL/TLS handshake','TLS'],['w','OpenSSL','OpenSSL']]],
+['WebSocket',[['s','WebSocket','1eyVYu_p7zK-YjLa3h0J060ktCEXhBitvMHeu86O_fDo'],['r','WebSocket in Golang','WebSocket-Golang']]],
+['FastAPI',[['r','To-do API and more','ToDoler-FastAPI']]],
+['Docker',[['s','Docker','1t_ZdDyZA4zeRXlXZUgkVAr1NL1PsPnLIB_z_ffuKNX0']]],
+['Jenkins',[['s','Jenkins','1PvMzkEbUoGPZ14TXSFw4XhJSczCoyejexWEYcD8_ckA'],['r','Simple pipeline script','simple-pipeline-script']]],
+['Selenium',[['r','Selenium with Python','python_selenium_stuffs'],['s','Selenium','1Ol5vP-moBB2nSZ3A6EIyQ9vZ6K1P_MvV9ijuhlaJsVg']]],
+['Ansible',[['s','Ansible','106RuU_0YqDvrrMVoradiE1vSWoVxPa_7FTQf2CAw5fw'],['r','Ansible stuff','ansible_stuffs']]],
+['tcpdump',[['x','tcpdump for dummies','http://www.alexonlinux.com/tcpdump-for-dummies#introduction'],['x','A tcpdump tutorial with examples','https://danielmiessler.com/p/tcpdump/'],['x','tcpdump cheatsheet','https://packetlife.net/media/library/12/tcpdump.pdf'],['x','tcpdump advanced filters','https://blog.wains.be/2007/2007-10-01-tcpdump-advanced-filters/']]]
+];
+const url=(t,v)=>t==='s'?S(v):t==='r'?GH+v:t==='w'?GH+v+'/wiki':v;
+const out=document.getElementById('out'),qi=document.getElementById('q'),chips=document.getElementById('chips'),cnt=document.getElementById('count');
+let topic='';
+['All',...D.map(d=>d[0])].forEach(n=>{
+  const b=document.createElement('button');b.textContent=n;b.type='button';
+  b.setAttribute('aria-pressed',n==='All');
+  b.onclick=()=>{topic=n==='All'?'':n;[...chips.children].forEach(c=>c.setAttribute('aria-pressed',c===b));render()};
+  chips.appendChild(b);
+});
+function render(){
+  const q=qi.value.trim().toLowerCase();let total=0;out.textContent='';
+  D.forEach(([name,items])=>{
+    if(topic&&name!==topic)return;
+    const m=items.filter(([t,ti])=>!q||(ti+' '+name+' '+T[t]).toLowerCase().includes(q));
+    if(!m.length)return;total+=m.length;
+    const s=document.createElement('section'),h=document.createElement('h2'),l=document.createElement('div');
+    h.textContent=name.toLowerCase();l.className='list';
+    const sm=document.createElement('small');sm.textContent=m.length+(m.length>1?' items':' item');h.appendChild(sm);
+    m.forEach(([t,ti,v])=>{
+      const a=document.createElement('a'),i=document.createElement('i'),sp=document.createElement('span');
+      a.className='row';a.dataset.t=t;a.href=url(t,v);i.textContent=T[t];sp.textContent=ti;a.append(i,sp);l.appendChild(a)});
+    s.append(h,l);out.appendChild(s);
+  });
+  if(!total){const p=document.createElement('p');p.className='empty';p.textContent='Nothing matches "'+qi.value+'". Clear the filter or pick another topic.';out.appendChild(p)}
+  cnt.textContent=total+(total===1?' resource':' resources');
+}
+qi.oninput=render;render();
+
+(function(){
+const c=document.getElementById('net'),x=c.getContext('2d'),rm=matchMedia('(prefers-reduced-motion: reduce)').matches;
+let w,h,n=[];
+function size(){w=c.width=c.offsetWidth;h=c.height=c.offsetHeight;
+ n=Array.from({length:Math.round(w*h/14000)},()=>({x:Math.random()*w,y:Math.random()*h,vx:(Math.random()-.5)*.25,vy:(Math.random()-.5)*.25}))}
+function draw(){
+ x.clearRect(0,0,w,h);
+ if(!rm)for(const a of n){a.x+=a.vx;a.y+=a.vy;if(a.x<0||a.x>w)a.vx*=-1;if(a.y<0||a.y>h)a.vy*=-1}
+ for(let i=0;i<n.length;i++)for(let j=i+1;j<n.length;j++){
+  const a=n[i],b=n[j],d=Math.hypot(a.x-b.x,a.y-b.y);
+  if(d<140){x.strokeStyle='rgba(108,180,255,'+.35*(1-d/140)+')';x.beginPath();x.moveTo(a.x,a.y);x.lineTo(b.x,b.y);x.stroke()}}
+ x.fillStyle='rgba(244,185,66,.7)';
+ for(const a of n)x.fillRect(a.x-1.5,a.y-1.5,3,3);
+ if(!rm)requestAnimationFrame(draw)}
+size();draw();
+addEventListener('resize',()=>{size();if(rm)draw()});
+})();
+</script>
+</body>
+</html>

@@ -1,7 +1,185 @@
----
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
-author_profile: true
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Logesh Sakthivel – Staff Engineer</title>
+<meta name="description" content="Staff Engineer validating enterprise switches, SDN controllers and wireless systems with Python, pyATS, Pytest and Golang.">
+<meta property="og:title" content="Logesh Sakthivel – Staff Engineer">
+<meta property="og:description" content="Network validation, test frameworks and simulators. Python, pyATS, Golang, SAI, SDN.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230d1523'/%3E%3Cpath d='M7 22V10l9 8 9-8v12' stroke='%23f4b942' stroke-width='3' fill='none'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0d1523;--panel:#14213a;--line:#25365a;--text:#dbe6f5;--mute:#8aa0bd;--accent:#f4b942;--sw:#b69cf5;--sdn:#6cb4ff;--soc:#7fd8a3;--wl:#5fd6d6;color-scheme:dark}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font:17px/1.6 "IBM Plex Sans",system-ui,sans-serif}
+a{color:var(--sdn)}
+a:focus-visible,tr:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.mono{font-family:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace}
+.wrap{max-width:1000px;margin:0 auto;padding:0 24px}
+header{position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
+#net{position:absolute;inset:0;width:100%;height:100%;opacity:.55}
+.hero{position:relative;padding:96px 0 72px}
+.hero h1{font:700 clamp(2.4rem,7vw,4.2rem)/1.05 "JetBrains Mono",monospace;margin:0 0 12px;letter-spacing:-.02em}
+.role{font:400 1.15rem "JetBrains Mono",monospace;color:var(--accent);margin:0 0 20px}
+.hero p{max-width:60ch;margin:0 0 28px}
+.links{display:flex;flex-wrap:wrap;gap:10px 22px;font-family:"JetBrains Mono",monospace;font-size:.95rem}
+nav.top{position:relative;padding:18px 0;font-family:"JetBrains Mono",monospace;font-size:.9rem;display:flex;gap:22px;flex-wrap:wrap}
+nav.top a{color:var(--mute);text-decoration:none}
+nav.top a:hover{color:var(--text)}
+section{padding:64px 0 0}
+h2{font:400 1.1rem "JetBrains Mono",monospace;color:var(--mute);margin:0 0 20px}
+h2::before{content:"$ ";color:var(--accent)}
+table{width:100%;border-collapse:collapse;font-family:"JetBrains Mono",monospace;font-size:.85rem;background:var(--panel);border:1px solid var(--line)}
+th{text-align:left;font-weight:400;color:var(--mute);padding:8px 12px;border-bottom:1px solid var(--line)}
+td{padding:10px 12px;vertical-align:top}
+tbody tr{cursor:pointer;border-left:3px solid transparent}
+tbody tr[data-k=sw]{background:rgba(182,156,245,.09)}
+tbody tr[data-k=sdn]{background:rgba(108,180,255,.09)}
+tbody tr[data-k=soc]{background:rgba(127,216,163,.09)}
+tbody tr[data-k=wl]{background:rgba(95,214,214,.09)}
+tbody tr:hover{filter:brightness(1.25)}
+tbody tr[aria-selected=true]{border-left-color:var(--accent);background:rgba(244,185,66,.16)}
+.tag{white-space:nowrap}
+.tag[data-k=sw]{color:var(--sw)}.tag[data-k=sdn]{color:var(--sdn)}.tag[data-k=soc]{color:var(--soc)}.tag[data-k=wl]{color:var(--wl)}
+#detail{background:var(--panel);border:1px solid var(--line);border-top:0;padding:20px 22px}
+#detail h3{margin:0 0 4px;font:700 1.05rem "JetBrains Mono",monospace}
+#detail .meta{color:var(--mute);font:.85rem "JetBrains Mono",monospace;margin:0 0 12px}
+#detail ul{margin:0;padding-left:1.2em}
+#detail li{margin:4px 0;max-width:75ch}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:28px 40px}
+.grid h3{font:700 1rem "JetBrains Mono",monospace;margin:0 0 6px}
+.grid p{margin:0;max-width:52ch}
+.grid .tech{color:var(--mute);font:.82rem "JetBrains Mono",monospace;margin-top:6px}
+dl{display:grid;grid-template-columns:max-content 1fr;gap:8px 24px;margin:0;font-size:.95rem}
+dt{font-family:"JetBrains Mono",monospace;color:var(--accent)}
+dd{margin:0}
+footer{margin-top:80px;padding:32px 0 48px;border-top:1px solid var(--line);color:var(--mute);font-size:.9rem}
+@media(max-width:640px){.c-time,.c-tag{display:none}.hero{padding:64px 0 48px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header>
+<canvas id="net" aria-hidden="true"></canvas>
+<div class="wrap">
+<nav class="top" aria-label="Sections"><a href="#experience">experience</a><a href="#projects">projects</a><a href="#stack">stack</a><a href="#writing">writing</a><a href="/learning-resources/">learning</a><a href="#contact">contact</a></nav>
+<div class="hero">
+<h1>Logesh Sakthivel</h1>
+<p class="role">Staff Engineer</p>
+<p>I validate and automate L2/L3 features on SAI-based enterprise switches. Before that I certified SDN controller releases at Verizon, and I have spent nearly six years building test frameworks and simulators for networking, wireless and IoT products.</p>
+<div class="links">
+<a href="https://github.com/LogeshVel">GitHub</a>
+<a href="https://linkedin.com/in/logesh-sakthivel">LinkedIn</a>
+<a href="https://medium.com/@LogeshSakthivel">Medium</a>
+<a href="Logesh_Sakthivel_Resume.pdf">Resume (PDF)</a>
+</div>
+</div>
+</div>
+</header>
+
+<main class="wrap">
+<section id="experience">
+<h2>show experience</h2>
+<table>
+<thead><tr><th class="c-time">Time</th><th>Where</th><th class="c-tag">Domain</th><th>Role and focus</th></tr></thead>
+<tbody id="rows"></tbody>
+</table>
+<div id="detail" aria-live="polite"></div>
+</section>
+
+<section id="projects">
+<h2>show projects</h2>
+<div class="grid">
+<div><h3>Network device simulator</h3><p>Emulates Cisco, Juniper and Nokia NETCONF devices from their YANG models and mounts them on an OpenDaylight controller. Developers and testers get virtual devices with browser-based SSH, so they don't wait for hardware.</p><div class="tech">FastAPI, ConfD, YANG, ODL, WebSocket, asyncssh</div></div>
+<div><h3>Test execution portal</h3><p>A web portal for running sanity, feature and regression suites, with testbed management, run history and a built-in log viewer.</p><div class="tech">Django, Pytest, MongoDB</div></div>
+<div><h3>Protocol simulators</h3><p>A Profinet traffic CLI in Golang, and a SCADA T104 packet library for building and parsing traffic. The SCADA proof of concept earned a Spot Award.</p><div class="tech">Golang, Scapy, Python</div></div>
+<div><h3>Hobby projects</h3><p>NetFie, a monitoring dashboard, and a TCP analyser with CLI and GUI, plus small command-line tools and an Android finance tracker.</p><div class="tech"><a href="https://github.com/LogeshVel">See GitHub</a></div></div>
+</div>
+</section>
+
+<section id="stack">
+<h2>show stack</h2>
+<dl>
+<dt>languages</dt><dd>Python, Golang, Bash</dd>
+<dt>frameworks</dt><dd>pyATS, Pytest, Playwright, Robot Framework, Django, FastAPI</dd>
+<dt>tools</dt><dd>Docker, Kubernetes, Jenkins, Git, Wireshark, Scapy, tcpdump, Ixia, Postman</dd>
+<dt>protocols</dt><dd>L2/L3 switching, NETCONF, RESTCONF, YANG, 802.11, TCP/UDP, VLAN, DHCP, TLS</dd>
+<dt>apis</dt><dd>REST, GraphQL, gRPC</dd>
+<dt>cloud</dt><dd>AWS Certified Solutions Architect – Associate, AWS Certified Cloud Practitioner</dd>
+</dl>
+</section>
+
+<section id="writing">
+<h2>show writing</h2>
+<p style="max-width:60ch;margin:0">I write about Golang, Protobuf, gRPC and GraphQL. Articles are on <a href="https://medium.com/@LogeshSakthivel">Medium</a> and <a href="https://dev.to/logesh-sakthivel">DEV</a>. My <a href="/learning-resources/">learning archive</a> has the slides, code and wiki notes behind them.</p>
+</section>
+
+<section id="contact">
+<h2>show contact</h2>
+<p style="margin:0">Open to conversations on network automation, test architecture and SAI/SONiC-based switching.<br><a href="mailto:logsak.12.34@gmail.com">logsak.12.34@gmail.com</a></p>
+</section>
+</main>
+
+<footer><div class="wrap">© <span id="yr"></span> Logesh Sakthivel</div></footer>
+
+<script>
+document.getElementById('yr').textContent=new Date().getFullYear();
+/* Edit the entries below. k: sw=switching, sdn=SDN, soc=SoC/IoT, wl=wireless */
+const E=[
+{k:'sw',time:'Feb 2026 – now',where:'Marvell Technology',tag:'switching',role:'Staff Engineer · SAI L2/L3 feature validation',
+ b:['Validate and automate L2/L3 features on SAI-based enterprise switches: STP, routing, port mirroring, tunneling, L2 multicast and sFlow.','Test automation written in Python.']},
+{k:'sdn',time:'Aug 2025 – Feb 2026',where:'Verizon',tag:'SDN',role:'Engineer III, Spec Test Automation · SDN controller (BNC/NEAP)',
+ b:['Ran regression and release certification for monolithic (BNC) and Kubernetes-based (NEAP) controller architectures.','Wrote Playwright automation for the admin console UI and its APIs.','Wrote a shell bootstrap script for testbed setup and device onboarding that removed about 90% of setup errors.','Acted as technical liaison for UAT and triaged every reported issue.','Built a FastAPI and ConfD simulator for Cisco, Juniper and Nokia NETCONF devices, mounted on OpenDaylight, with browser SSH over WebSocket.']},
+{k:'soc',time:'Jan 2024 – Aug 2025',where:'VVDN Technologies',tag:'SoC / IoT',role:'Senior Engineer (QA) · TCU SoC testing, network test platform',
+ b:['Designed custom Pytest plugins for TCU testing, built for reuse and faster runs.','Led the QA automation team: framework strategy, mentoring and PR reviews.','Built a generic power interface for multiple PDU vendors.','Built a Django test execution portal with testbed management, history and a log viewer.','Automated the MTS 5000 network test tool from scratch, covering L2, L3, L4 and L7 traffic.']},
+{k:'wl',time:'Jun 2023 – Dec 2023',where:'embedUR systems',tag:'security',role:'Senior Software Engineer · Cisco Cyber Vision scale testing',
+ b:['Scale and stress tested Cyber Vision across multi-node deployments with local and global servers.','Automated REST API and CLI validation with pyATS.','Wrote a Python FPDF report with traffic profiles, KPIs and performance graphs.']},
+{k:'wl',time:'Feb 2021 – May 2023',where:'embedUR systems',tag:'wireless',role:'Software Engineer · CURWB, Fluidmesh, SD-Access, SCADA',
+ b:['Automated solution-level tests for CURWB and Fluidmesh wireless products: failover, QoS, REP convergence and P2P links from 2 to 32.5 km.','Automated Cisco DNAC onboarding and SGT validation for SD-Access fabric wireless.','Built a Profinet traffic CLI in Golang and a SCADA T104 packet library with Scapy.']}
+];
+const rows=document.getElementById('rows'),det=document.getElementById('detail');
+function show(i){
+  [...rows.children].forEach((r,j)=>r.setAttribute('aria-selected',j===i));
+  const e=E[i];
+  det.innerHTML='<h3></h3><p class="meta"></p><ul></ul>';
+  det.querySelector('h3').textContent=e.role;
+  det.querySelector('.meta').textContent=e.where+' · '+e.time;
+  e.b.forEach(t=>{const li=document.createElement('li');li.textContent=t;det.querySelector('ul').appendChild(li)});
+}
+E.forEach((e,i)=>{
+  const tr=document.createElement('tr');
+  tr.dataset.k=e.k;tr.tabIndex=0;tr.setAttribute('role','button');
+  tr.innerHTML='<td class="c-time"></td><td></td><td class="c-tag tag"></td><td></td>';
+  tr.children[0].textContent=e.time;tr.children[1].textContent=e.where;
+  tr.children[2].textContent=e.tag;tr.children[2].dataset.k=e.k;tr.children[3].textContent=e.role;
+  tr.onclick=()=>show(i);
+  tr.onkeydown=ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();show(i)}};
+  rows.appendChild(tr);
+});
+show(0);
+
+(function(){
+const c=document.getElementById('net'),x=c.getContext('2d'),rm=matchMedia('(prefers-reduced-motion: reduce)').matches;
+let w,h,n=[];
+function size(){w=c.width=c.offsetWidth;h=c.height=c.offsetHeight;
+ n=Array.from({length:Math.round(w*h/14000)},()=>({x:Math.random()*w,y:Math.random()*h,vx:(Math.random()-.5)*.25,vy:(Math.random()-.5)*.25}))}
+function draw(){
+ x.clearRect(0,0,w,h);
+ if(!rm)for(const a of n){a.x+=a.vx;a.y+=a.vy;if(a.x<0||a.x>w)a.vx*=-1;if(a.y<0||a.y>h)a.vy*=-1}
+ for(let i=0;i<n.length;i++)for(let j=i+1;j<n.length;j++){
+  const a=n[i],b=n[j],d=Math.hypot(a.x-b.x,a.y-b.y);
+  if(d<140){x.strokeStyle='rgba(108,180,255,'+.35*(1-d/140)+')';x.beginPath();x.moveTo(a.x,a.y);x.lineTo(b.x,b.y);x.stroke()}}
+ x.fillStyle='rgba(244,185,66,.7)';
+ for(const a of n)x.fillRect(a.x-1.5,a.y-1.5,3,3);
+ if(!rm)requestAnimationFrame(draw)}
+size();draw();
+addEventListener('resize',()=>{size();if(rm)draw()});
+})();
+</script>
+</body>
+</html>
